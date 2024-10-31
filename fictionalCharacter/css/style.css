@@ -1,0 +1,264 @@
+/* 2 Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+
+
+
+body {
+    background-color: #000;
+}
+
+div.container {
+    text-align: center;
+    color: #000;
+  }
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+  
+h2 {
+    font-size: 30px;
+}
+
+p, ul, ol, li, a {
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+
+
+
+/* Header */
+
+header {
+    background-color: #45357f;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+
+
+
+/* Navigation Bar */
+
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #821f52;
+      }
+      
+nav li {
+        float: left;
+      }
+      
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+      
+nav li a:hover {
+    background-color: #c24b4f;
+}
+
+/* For Sticky Navigation Bar */
+nav {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+
+
+
+
+/* For Div Row & Column */
+
+*   {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+}
+
+.row {
+padding-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+}
+
+/* For responsive images */
+.responsive {
+width: 100%;
+height: auto;
+}
+
+
+
+
+
+/* About Section */
+#about-section {
+    background-color: #6668bf;
+    margin: 0px 200px;
+    padding: 30px 20px 30px 20px;
+  }
+
+#about-section h2 {
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+
+
+
+/* Skills Section */
+#skills-section {
+    background-color: #45357f;
+    margin: 0px 200px;
+    padding: 30px 20px 30px 20px;
+  }
+
+#skills-section h2 {
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+
+
+
+/* Companions Section */
+#companions-section {
+    background-color: #6668bf;
+    margin: 0px 200px;
+    padding: 30px 20px 10px 20px;
+  }
+
+#companions-section h2 {
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+
+
+
+/* The Netherworld Section */
+#theNetherworld-section {
+    background-color: #45357f;
+    margin: 0px 200px;
+    padding: 30px 20px 30px 20px;
+  }
+
+#theNetherworld-section h2 {
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+
+
+
+/* References Section */
+#references-section {
+    background-color: #6668bf;
+    margin: 0px 200px;
+    padding: 30px 20px 30px 20px;
+  }
+
+#references-section h2 {
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+/* visited link */
+#references-section a:visited {
+    color: #821f52;
+  }
+
+/* mouse over link */
+#references-section a:hover {
+    color: #c24b4f;
+  }
+
+/* selected link */
+#references-section a:active {
+    color: #44397A;
+  }
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #45357f;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+/* visited link */
+footer a:visited {
+  color: #821f52;
+}
+
+/* mouse over link */
+footer a:hover {
+  color: #c24b4f;
+}
+
+/* selected link */
+footer a:active {
+  color: #44397A;
+}

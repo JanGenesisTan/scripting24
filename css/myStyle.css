@@ -1,0 +1,243 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Kumbh+Sans:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2, h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+
+p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+
+
+
+
+/* For Navbar */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: #000;
+}
+
+.dropdown-item {
+color: #FFF;
+}
+
+
+
+
+
+/* For Header */
+.hero-image {
+  background: url('../images/header-bg-img.png');
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero-image .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+:root {
+    --gap: 4rem;
+  }
+  
+.marquee {
+  overflow: hidden;
+  user-select: none;
+  display: flex;
+  position: fixed;
+  gap: var(--gap);
+}
+  
+.marquee ul {
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+  animation: marquee 15s linear infinite;
+}
+  
+.marquee-text {
+  background: linear-gradient(to right, #a2a2a2, #ffffff, #212121);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 400;
+  font-size: 25ch;
+}
+
+.semi-light-text {
+  font-weight: 300;
+}
+
+.white-box-text {
+  background-color: #FFF;
+  color: #000;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.light-text {
+  font-weight: 200;
+}
+
+.genesis-img {
+  width: 600px; 
+  position: fixed; 
+  top: 100px;
+}
+  
+@keyframes marquee {
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+
+
+
+
+/* For About Section  */
+#about {
+  background-color: #000; 
+  color: #FFF; 
+  position: relative;
+}
+
+#about a {
+  text-decoration: none;
+}
+
+#about .minus-margin-top {
+  margin-top: -20px;
+}
+
+
+
+
+
+/* For Passion Section  */
+#passion {
+  background-color: #FFF; 
+  color: #000; 
+  position: relative;
+}
+
+#passion h3 {
+  font-size: 48px; 
+  font-weight: 400;
+}
+
+#passion .black-box-text {
+  background-color: #000;
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#passion img {
+  border: 10px solid #000;
+}
+
+
+
+
+
+/* For Works Section  */
+#works {
+  background-color: #000; 
+  color: #FFF; 
+  position: relative;
+}
+
+#works img {
+  border: 10px solid #FFF;
+}
+
+#works .white-box-text {
+  background-color: #FFF;
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+/* For Travels Section  */
+#travels {
+  background-color: #FFF; 
+  color: #000; 
+  position: relative;
+}
+
+#travels img {
+  border: 10px solid #000;
+}
+
+#travels .black-box-text {
+  background-color: #000;
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+/* For Footer */
+footer {
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+  padding: 50px 0px;
+  position: relative;
+}
+
+.fa-facebook-square, .fa-envelope, .fa-instagram {
+  font-size: 24px;
+}
+
+.fa-angle-up {
+  font-size: 60px;
+}
+
+
+
+

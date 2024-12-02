@@ -1,0 +1,139 @@
+/* Archivo Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Source Sans 3 Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+  
+h1, h2 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+h2 {
+    font-size: 70px;
+}
+  
+p, a {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+
+/* For Navbar */
+.navbar {
+    background-color: #000;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: 700;
+    font-family: "Archivo", sans-serif;
+    color: #1abb9b;
+}
+
+
+
+/* For Header */
+#home-header {
+    background: url(../images/home/home-header-img.png) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#home-header h2  {
+    color: #1abb9b;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}
+
+.landing-text h2 {
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-text h1 {
+        font-size: 60px;
+    }
+
+    .landing-text h2 {
+        font-size: 40px;
+    }
+}
+
+/* For Geography */
+#geography-header {
+    background: url(../images/geography/marikina-buildings.png) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+/* For People */
+#people-header {
+    background: url(../images/people/marikina-people-1.png) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+/* For Economy */
+#economy-header {
+    background: url(../images/economy/man-making-shoes.png) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+/* For Attractions */
+#attractions-header {
+    background: url(../images/attractions/marikina-river-garden.png) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+/* For Reference */
+#reference-header {
+    background: url(../images/reference/marikina-leather-shoes.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#footer {
+    background-color: #000;
+    color: white;
+    padding: 50px 0px 50px 0px;
+}
+
+#footer h3 {
+    color: #1abb9b;
+}

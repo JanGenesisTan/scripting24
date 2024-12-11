@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>THE COLD ENDLESS NIGHT | A MADLIBS PROJECT</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/formJsStyle.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="item"> 
+              <div class="box">
+                <h1>THE COLD<br>ENDLESS NIGHT</h1>
+            </div>
+              <video autoplay muted loop id="vid1">
+                 <source src="video/snowing.mp4" type="video/mp4">
+              </video>
+            </div>
+        </div>
+    </header>
+
+    <section id="synopsis">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-6 mx-auto text-center">
+                    <h2>Synopsis</h2> 
+                    <p class="py-3">A sudden snowstorm devastated your city. A large number of people have unfortunately passed away because of it. There has been no sunlight for a month. It's very cold and dark. <br><br> <b>You need to live and survive.</b></p>
+                    <img src="images/synopsis-img.jpg" alt="City destroyed by Snowstorm" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr id="firstHR">
+
+    <section id="inputFields">
+        <div class="container">
+
+            <div class="row my-5 p-3">
+                <div class="col-sm-6 mx-auto">
+
+                    <form action="javascript:write();">
+                        <div class="form-group">
+                            <label for="name"><b>"You're a survivor."</b></label>
+                            <input class="form-control" type="text" id="name" placeholder="What's your name?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="city"><b>"The snowstorm devastated the city you are currently living in."</b></label>
+                            <input class="form-control" type="text" id="city" placeholder="What's the name of your city?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="base"><b>"Your home is your base."</b></label>
+                            <input class="form-control" type="text" id="base" placeholder="Where's your home in the city?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="sibling"><b>"You have a sibling."</b></label>
+                            <input class="form-control" type="text" id="sibling" placeholder="What's the name of your sibling?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="dog"><b>"You only have your dog as your trusty guide."</b></label>
+                            <input class="form-control" type="text" id="dog" placeholder="What's the name of your dog?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="car"><b>"You have a car"</b></label>
+                            <input class="form-control" type="text" id="car" placeholder="What's the brand of your car?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="food"><b>"You miss eating your favorite food"</b></label>
+                            <input class="form-control" type="text" id="food" placeholder="What's your favourite food?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="dream"><b>"Everyone has a dream"</b></label>
+                            <input class="form-control" type="text" id="dream" placeholder="What's your dream or what do you want to become?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="place"><b>"You have a favourite place in the city"</b></label>
+                            <input class="form-control" type="text" id="place" placeholder="What's the name of your favourite place in the city?" >
+                        </div>
+                        <div class="form-group">
+                            <label for="show"><b>"Everyone has a a favourite show"</b></label>
+                            <input class="form-control" type="text" id="show" placeholder="What is your most favourite show or movie?" >
+                        </div>
+
+                        <button type="submit" class="btn btn-block btn-outline-dark">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+            </div>
+
+            <div class="container">
+            <div class="row">
+                <div id="output" class="col-sm-6 mx-auto p-5" style="display: none;">
+                    <h2>Output will go here!</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="choice" style="display: none;">
+
+        <div id="theStory" class="container pt-5">
+            <div class="row">
+                <div class="col-sm-6 mx-auto text-center">
+                    <h2>The Story</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div id="output3" class="col-sm-6 mx-auto p-5">
+                    <h2>Output will go here!</h2>
+                </div>
+            </div>
+        </div>
+
+        <hr id="secondHR">
+
+        <div id="theChoice" class="container pt-5 pb-4">
+            <div class="row">
+                <div class="col-sm-6 mx-auto text-center">
+                    <h2>Your Choice</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row pb-5">
+                <div class="col-sm-6 mx-auto">
+                    
+                    <form id="radioButtonChoice" action="javascript:write2();">
+                        <div class="form-group">
+                            <p><b>“Go out? or Don't go out?”</b></p>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" value="goOut" id="goOut" name="choice" required>Go out and see what happens.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" value="dontGoOut" id="dontGoOut" name="choice">Don't go out and wait for rescue.
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-block btn-outline-dark">Submit</button>
+                    </form>
+
+                </div>
+
+                <div id="theEnding" class="container pt-5 pb-4" style="display: none;">
+                    <div class="row">
+                        <div class="col-sm-6 mx-auto text-center">
+                            <h2>The Ending</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div id="output2" class="col-sm-6 mx-auto p-5 text-center" style="display: none;">
+                        <h2>Output will go here!</h2>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            </div>
+
+            
+    </section>
+
+    <footer class="bg-dark">
+        <div class="container text-white text-center p-5 mt-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    A Madlibs Project <br>Created by Jan Genesis Tan
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/formHandler.js"></script>
+
+
+</body>
+
+</html>

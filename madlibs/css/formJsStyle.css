@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    letter-spacing: 6px;
+}
+  
+h2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+  
+p, a {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+}
+
+.customHeight{
+    height:40vh;
+}
+
+#snowingVideo {
+    background: url(../video/snowing.mp4) no-repeat center center fixed;
+    display: table;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#a {
+    text-align: center;
+    padding: 2px;
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+}
+
+#d {
+    color: #FFF;
+    padding: 2px;
+}
+
+
+  header .container-fluid {
+    padding: 0px;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  .box {
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 600px;
+    margin-top: -400px;
+  }
+
+@media only screen and (max-width: 1400px) {
+  .box {
+    top: 550px;
+  }
+
+  h1 { 
+    font-size: 140px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .box {
+    top: 500px;
+  }
+  h1 { 
+    font-size: 120px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .box {
+    top: 480px;
+    padding-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .box {
+    top: 450px;
+    padding-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .box {
+    top: 520px;
+    padding-bottom: 240px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .box {
+    top: 480px;
+    padding-bottom: 200px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    top: 470px;
+    padding-bottom: 240px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .box {
+    top: 460px;
+    padding-bottom: 270px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .box {
+    top: 450px;
+    padding-bottom: 290px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+hr {
+  width: 20%;
+}
+
+

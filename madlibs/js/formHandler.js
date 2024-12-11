@@ -49,12 +49,12 @@ function write2(){
         choiceMessage = "you survived!";
         document.getElementById("theEnding").style.display = 'block';
         document.getElementById("output2").style.display = 'block';
-        document.getElementById('output2').innerHTML = "<img src=\"images/you-win-img.jpg\" alt="You win"> <br><br> <p><b>Congratulations "+name+", "+choiceMessage+"</b> <br> You managed to find a settlement and get reunited with your sibling, "+sibling+".</p>";
+        document.getElementById('output2').innerHTML = "<img src=\"images/you-win-img.jpg\"> <br><br> <p><b>Congratulations "+name+", "+choiceMessage+"</b> <br> You managed to find a settlement and get reunited with your sibling, "+sibling+".</p>";
     }else if(choice=="dontGoOut"){
         choiceMessage = "you died.";
         document.getElementById("theEnding").style.display = 'block';
         document.getElementById("output2").style.display = 'block';
-        document.getElementById('output2').innerHTML = "<img src=\"images/you-died-img.jpg\" alt="You died"> <br><br> <p><b>I'm sorry "+name+", "+choiceMessage+"</b> <br> You ran out of ration and supplies and died from the cold winter.</p>";
+        document.getElementById('output2').innerHTML = "<img src=\"images/you-died-img.jpg\"> <br><br> <p><b>I'm sorry "+name+", "+choiceMessage+"</b> <br> You ran out of ration and supplies and died from the cold winter.</p>";
     }
 
     document.getElementById("inputFields").style.display = 'none';

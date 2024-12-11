@@ -70,3 +70,5 @@ function write2(){
     document.getElementById("radioButtonChoice").style.display = 'none';
                                                                                                                                                                                            
 }
+
+// Images and video were downloaded from unsplash.com
